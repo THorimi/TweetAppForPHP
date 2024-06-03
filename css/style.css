@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body {
+    background: #5b5864;
+    >*,a{color: #fff;}
+}
+ul {
+    list-style-type: none;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    .header_right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.tweet_list {
+    >li {
+        padding: 20px 0;
+        border-bottom: 1px solid #ccc;
+    }
+}
+.count_sec {
+    font-size: 14px;
+    opacity: 0.8;
+}
